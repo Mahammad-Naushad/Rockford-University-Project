@@ -1,0 +1,37 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Course Registeration</title>
+    <link rel="Shortcut Icon" href="title.jpg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="register.js"></script>
+</head>
+<body>
+        <nav>
+                <button id="nav1"><a  href="main.html">Home</a></button>
+                <button id="nav1"><a href="courses.html">Courses</a></button>
+                <button id="nav1"><a href="newsletter.html">Newsletter</a></button>
+                <button id="nav1"><a href="faculty.html">Faculty</a></button>
+                <button id="nav1"><a href="admission.html">Admission</a> </button>
+                <button id="nav1"><a href="contact.html">Contact Us</a></button>
+            </nav>
+    
+    <marquee><span id="result"></span></marquee>
+    <h1 id="formTitle">Please fill the Form
+    </h1>
+
+    <form>
+        <input type="text" id="username" placeholder="Enter your Name" required><br /><br />
+        <input type="date" id="dob" placeholder="Enter your Birthday" required><br /><br />
+        <label style="font-size: 1.1em;" >Select Currency:</label><br /><br />
+		<select id="courseSelect">
+			<option>Select</option>
+			<option>Data Structures</option>
+			<option>Graph Theory</option>
+			<option>Programming</option>
+            </select><br /><br />
+        <button type="button" onclick="getDetails()">Finish</button>
+    </form>
+</body>
+</html>

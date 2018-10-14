@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="Shortcut Icon" href="title.jpg" type="image/x-icon" />
+<script type="text/javascript" src="Programs.js"></script>
+<script type="text/javascript" src="register.js"></script>
+<script type="text/javascript">
+	function init(){
+		drawCanvas();
+		var check=window.localStorage.getItem("name");
+		if (check) {
+		document.getElementById("result").innerHTML=check;
+		}
+	}
+</script>
+<title>Courses</title>
+</head>
+
+
+<body onload="init()">
+	<span id="result"></span>
+		<nav>
+                <button id="nav1"><a  href="main.html">Home</a></button>
+                <button id="nav1"><a href="courses.html">Courses</a></button>
+                <button id="nav1"><a href="newsletter.html">Newsletter</a></button>
+                <button id="nav1"><a href="faculty.html">Faculty</a></button>
+                <button id="nav1"><a href="admission.html">Admission</a> </button>
+                <button id="nav1"><a href="contact.html">Contact Us</a></button>
+            </nav>
+
+	<div id="progd1">
+		<label style="font-size: 1.1em;" >Select Currency:</label>
+		<select id="cselect" name="cselect" onchange=convert()>
+			<option>Select</option>
+			<option>USD</option>
+			<option>EURO</option>
+			<option>KD</option>
+			<option>MYR</option>
+			<option>INR</option>
+		</select>
+	</div>
+
+	<div class="program1">
+		<div id="curval1">
+		<p id="progp1">Course Fees:
+		<div id="showc1">50 USD</div></p>
+		</div>
+
+
+		<div id="canvasdiv1">
+		<canvas id="progc1">
+		<b>Your browser does not support canvas</b>
+		</canvas>
+		</div>
+	</div>
+
+	<!--<div id="progd2">
+			<label style="font-size: 1.1em;" >Select Currency:</label>
+			<select id="cselect1" name="cselect1" onchange=convert()>
+				<option>Select</option>
+				<option>USD</option>
+				<option>EURO</option>
+				<option>KD</option>
+				<option>MYR</option>
+				<option>INR</option>
+			</select>
+	</div>-->
+
+	<div class="program2">
+		<div id="curval2">
+		<p id="progp2">Course Fees:<div id="showc2">50 USD</div></p>
+		</div>
+
+		<div id="canvasdiv2">
+		<canvas id="progc2">
+		<b>Your browser does not support canvas</b>
+		</canvas>
+		</div>
+	</div>
+
+	<!--<div id="progd3">
+			<label style="font-size: 1.1em;" >Select Currency:</label>
+			<select id="cselect2" name="cselect2" onchange=convert()>
+				<option>Select</option>
+				<option>USD</option>
+				<option>EURO</option>
+				<option>KD</option>
+				<option>MYR</option>
+				<option>INR</option>
+			</select>
+	</div>-->
+
+	<div class="program3">
+		<div id="curval3">
+		<p id="progp3">Course Fees:<div id="showc3">50 USD</div></p>
+		</div>
+
+		<div id="canvasdiv3">
+		<canvas id="progc3">
+		<b>Your browser does not support canvas</b>
+		</canvas>
+		</div>
+	</div>
+</body>
+</html>

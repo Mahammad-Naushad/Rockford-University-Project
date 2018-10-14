@@ -1,0 +1,469 @@
+/*CSS for Main page*/
+nav{
+    padding-top: 3%;
+    padding-left: 5%;  
+    color: black; 
+}
+h1{
+    padding: 2%;
+    font-weight: italic;
+}
+
+p{
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    background:  #042546;
+}
+
+#mainDiv{
+    width:100%;
+    height:100%;
+    background-color: #042546;
+}
+#nav1{
+    background-color:#ffff4d;
+    border: #2e6da4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+    line-height: 1.5;
+    text-decoration:none;
+    margin: 5px;
+    font-style: oblique;
+    float: left;
+}
+#result{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content{
+    background-color: beige;
+    width:90%;
+    height:100%;
+    margin-left: 5%;
+    align-content: center;
+}
+#registration{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 10px;
+}
+
+aside{
+    text-align: center;
+    margin-top:0.5%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    float: right;
+    color: white;
+    width:25%;
+    height:13.25%;
+    background-color: black;
+    margin-right: 0.2%;
+}
+#newsItem{
+    float: left;
+    margin: 0.5%;
+    background-color: #f2f2ff;
+    width:73%;
+    height: 22%;
+    font-style: italic;
+    color: #000;
+    font-size: 20px;
+}
+#welcome_Text{
+    float:left;
+    margin:0.5%;
+    background-color: #95C8D8;
+    width:36%;
+    height:68%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#random_Things{
+    float:right;
+    margin:0.5%;
+    margin-right: 26.5%;
+    width:35%;
+    height:70%;
+    background-color: #95C8D8;
+}
+#campus_Study{
+    width:100%;
+    height:28.33%;
+}
+
+#univ{
+    float: right;
+    height:90%;
+    width:30%;
+    margin-right: 2%;
+    margin-top:0.5%;
+}
+#online{
+    float:left;
+    height:90%;
+    width:30%;
+    margin-left:2%;
+}
+span{
+    padding: 2%;
+    font-size: 1.5em;
+}
+#online_Study{
+    width:100%;
+    padding-top: 1%;
+    height:33.33%;
+    background-color:  rgba(71, 23, 107, 0.533);
+}
+#virtual_Campus{
+    height:28%;
+    width: 100%;
+}
+
+/*CSS for NewsLetter*/
+#mainNews{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    margin-left: 10px;
+    background-color: #042546;
+}
+
+#titlePic{
+    width: 30%;
+    height:100%;
+}
+
+#title{
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    float: right;
+    margin-right: 200px;
+    font-size: 18px;
+}
+
+#titlePart{
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+#topNews{
+    width: 100%;
+    height: 35%;
+    border: 1px solid black;
+    margin-top: 10px;
+    clear: both;
+    font-family: verdana;
+    background-color: azure;
+}
+
+
+
+#nimage1{
+    width: 40%;
+    height: 100%;
+}
+
+#topNewsText{
+    width: 60%;
+    height: 30%;
+    margin-top: 10px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: 15px;
+
+
+}
+#sideNews1{
+    width: 48%;
+    height: 40%;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+    font-family: verdana;
+    background-color: azure;
+}
+
+#nimage2{
+    width: 40%;
+    height: 100%;
+}
+
+#sidenewsText{
+    width: 50%;
+    height: 30%;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: 15px;
+}
+
+
+#sideNews2{
+    width: 48%;
+    height: 40%;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;   
+    font-family: verdana;
+    background-color: azure;
+}
+
+#nimage3{
+    width: 45%;
+    height: 100%;
+}
+
+#sidenewsText2{
+    width: 50%;
+    height: 30%;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: 15px;
+}
+
+#hd{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*newRole */
+#total{
+    height: 100%;
+    width: 100%;
+    color: #f2f2ff;
+}
+
+#sect1{
+    height: 100%;
+    width: 60%;
+    border: 1px;
+    float: left;
+    text-align: justify;
+}
+
+#sect2{
+    margin-top: 10%;
+    height: 30%;
+    width: 30%;
+    float: right;
+    background-color: azure;
+}
+
+#newsHead{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newsImage{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#otherNews{
+    text-align: center;
+    color: #000;
+}
+
+/*Contact part*/
+#map_canvas{
+    float: right;
+    margin-top: 5%;
+    width: 48%;
+    height: 60%;
+    border: 1px solid black;
+    margin: 5px;
+    margin-top: 1%;
+    font-family: verdana;
+    background-color: azure;
+}
+
+#details{
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: -50%;
+    height: 50%;
+    border: 1px azure ;
+    background-color: beige;
+}
+
+#n1,#n2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+#n3,#n4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#n5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 16px;
+    text-align: left;
+}
+
+#btn1{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: #2e6da4;
+}
+
+/*admission*/
+  .content .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: darkred;
+  }
+  .content input {
+    align-content: center;
+    text-align: center;
+    width: 30%;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:35%;
+    border: none;
+    padding: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+
+  #selCourse{
+    align-content: center;
+    text-align: center;
+    width: 30%;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:35%;
+    border: none;
+    padding: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+
+  .content button {
+    width: 15%;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-left:45%;
+    background-color: rgb(40, 18, 136);
+    color: White;
+    border: none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+  }
+
+#result{
+  font-size: 1.5em;
+  padding: 2%;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*faculty*/
+/*.img-circle{
+    border-radius:50%;
+    text-align: center;
+    margin:5%;
+}*/
+#nm{
+    color:white;
+    text-align: center;
+    margin-top:2%;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+.container img{
+    display: inline-block;
+}
+html {
+    background:#042546;
+  }
+
+  div{
+    color:white; 
+    text-align: center;  
+  }
+  #lopetegui{
+      float: left;
+  }
+  #zidane{
+      float: left;
+  }
+  #benitez{
+      float: left;
+  }
+
+  #ancelotti{
+    float: left;
+  }
+
+  #mourinho{
+    float: left;
+  }
+  #result{
+    color:white;
+    font-size: 1.5em;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*courses*/
+#progd1{
+    margin-top: 10%;
+    display: block;
+    float: left;
+    margin-left: -20%;
+    margin-right: auto;
+}
+
+#curval1{
+    text-align: center;
+}
+
+#progp1{
+    margin-top: 10%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+

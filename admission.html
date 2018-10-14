@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Admission</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="title.jpg" type="image/x-icon">
+        <script type="text/javascript" src="register.js"></script>
+        <script type="text/javascript" src="jquery1-7-2.js"></script>
+        <script>
+            function myFunction()
+{
+    var inputVal = document.getElementById("mail");
+    if(inputVal.validity.typeMismatch)
+    {
+       inputVal.setCustomValidity("Hey '" + inputVal.value + "' is not a valid email. Please enter something that is valid!");
+    }
+    else
+        inputVal.setCustomValidity("");
+}
+        </script>
+    </head>
+    <body class="content" onload="check()">
+            <nav>
+                    <button id="nav1"><a  href="main.html">Home</a></button>
+                    <button id="nav1"><a href="courses.html">Courses</a></button>
+                    <button id="nav1"><a href="newsletter.html">Newsletter</a></button>
+                    <button id="nav1"><a href="faculty.html">Faculty</a></button>
+                    <button id="nav1"><a href="admission.html">Admission</a> </button>
+                    <button id="nav1"><a href="contact.html">Contact Us</a></button>
+                </nav>
+        
+                <marquee behavior="scroll" direction="left" scrollamount="15" onmousedown="this.setAttribute('scrollamount', 3, 0);" onmouseup="this.setAttribute('scrollamount', 15, 0);"><span id="result"></span></marquee>
+        <div class="title">
+            Course Registration
+        </div>
+
+        <input type="text" placeholder="Username" id="username"/><br><br>
+        <input type="password" placeholder="Password" id="password"/><br><br>
+        <input type="email" id="mail"  placeholder="Enter your mail ID"  oninput="myFunction()" required><br/><br/>
+        <select id="selCourse">
+                <option>Select</option>
+                <option>Data Structures</option>
+                <option>Graph Theory</option>
+                <option>Programming</option>
+                </select><br /><br />
+        <button onclick="getDetails()">Register</button>                  
+    </body>
+</html>
